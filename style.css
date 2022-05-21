@@ -1,6 +1,85 @@
+.container-body {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.card {
+  background-color: #fff8e4;
+  height: 460px;
+}
+.card-body {
+  position: relative;
+  top: 5px;
+}
 h1 {
   color: rgb(255, 162, 0);
+  font-size: 30px;
 }
+#search-form {
+  position: relative;
+  top: 12px;
+}
+
+.search {
+  background-color: rgb(26, 105, 173);
+  color: #fff;
+  border-radius: 3px;
+}
+
+#time {
+  font-size: 18px;
+  position: relative;
+  left: 216px;
+  top: -33px;
+  color: rgb(49, 49, 49);
+}
+
+#date {
+  font-size: 18px;
+  position: relative;
+  left: 140px;
+  top: 10px;
+  color: rgb(49, 49, 49);
+}
+
+#temp {
+  font-size: 40px;
+  position: relative;
+  left: 135px;
+  top: -75px;
+  color: rgb(49, 49, 49);
+}
+
+.units {
+  font-size: 18px;
+  position: relative;
+  left: 140px;
+  top: -75px;
+  color: rgb(49, 49, 49);
+}
+
+#fahranheit-link,
+#celsuis-link {
+  text-decoration-line: none;
+}
+
+#description {
+  font-size: 18px;
+  position: relative;
+  left: 140px;
+  top: -75px;
+  color: rgb(49, 49, 49);
+}
+
 .sunny {
   position: relative;
+  top: -335px;
+  margin: auto 0;
+}
+
+.quote {
+  position: relative;
+  left: 190px;
+  top: -300px;
+  margin: auto 0;
 }
