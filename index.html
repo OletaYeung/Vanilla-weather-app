@@ -14,11 +14,36 @@
     <title>Vanilla weather app</title>
   </head>
   <body>
-    <div class="container">
-      <h1>hello</h1>
-      <a href="" class="btn btn-primary">click me</a>
+    <div class="container-body">
+      <div class="card-body">
+        <h1>Today we are reporting the unpredictable...</h1>
+        <form id="search-form">
+          <input
+            type="text"
+            placeholder="Enter the city name"
+            autocomplete="off"
+            autofocus
+            id="city-input"
+          />
+          <input class="search" type="submit" value="Search" />
+        </form>
+        <br />
+        <h3 id="city">Sydney</h3>
+        <p id="time">2:53pm</p>
+        <p id="date">Sat 21st
+        <br />
+        <span id="temp">19</span>
+        <span class="units">
+          <a href="#" id="celsuis-link"> °C </a>
+          /
+          <a href="#" id="fahranheit-link"> °F </a>
+        </span>
+        <br />
+            <div id="description">Mostly sunny</div>
+          </p> 
+          <img src="Weather Icons/sunny.png" width="60" alt="sunny" class="sunny" />
+      </div>
     </div>
-
     <script src="app.js"></script>
   </body>
 </html>
