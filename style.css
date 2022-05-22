@@ -51,9 +51,10 @@ h1 {
   color: rgb(49, 49, 49);
 }
 
-#fahranheit-link,
-#celsuis-link {
+#fahrenheit-link,
+#celsius-link {
   text-decoration-line: none;
+  color: rgb(49, 49, 49);
 }
 
 #description {
