@@ -30,7 +30,7 @@ h1 {
 #time {
   font-size: 18px;
   position: relative;
-  left: 216px;
+  left: 205px;
   top: -33px;
   color: rgb(49, 49, 49);
 }
@@ -38,7 +38,7 @@ h1 {
 #date {
   font-size: 18px;
   position: relative;
-  left: 140px;
+  left: 125px;
   top: 10px;
   color: rgb(49, 49, 49);
 }
@@ -46,7 +46,7 @@ h1 {
 #temp {
   font-size: 40px;
   position: relative;
-  left: 135px;
+  left: 125px;
   top: -75px;
   color: rgb(49, 49, 49);
 }
@@ -54,7 +54,7 @@ h1 {
 .units {
   font-size: 18px;
   position: relative;
-  left: 140px;
+  left: 130px;
   top: -75px;
   color: rgb(49, 49, 49);
 }
@@ -67,9 +67,10 @@ h1 {
 #description {
   font-size: 18px;
   position: relative;
-  left: 140px;
+  left: 125px;
   top: -75px;
   color: rgb(49, 49, 49);
+  text-transform: capitalize;
 }
 
 .sunny {
@@ -80,7 +81,7 @@ h1 {
 
 .quote {
   position: relative;
-  left: 190px;
+  left: 185px;
   top: -300px;
   margin: auto 0;
 }
