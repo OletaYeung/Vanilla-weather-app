@@ -4,7 +4,7 @@
   left: 50px;
 }
 .card {
-  background-color: #fff8e4;
+  background-color: #fcd3b2;
   height: 420px;
 }
 .card-body {
@@ -13,7 +13,7 @@
   left: 10px;
 }
 h1 {
-  color: rgb(255, 162, 0);
+  color: rgb(26, 105, 173);
   font-size: 30px;
 }
 #search-form {
@@ -38,16 +38,16 @@ h1 {
 #temp {
   font-size: 40px;
   position: relative;
-  left: 125px;
-  top: -45px;
+  left: 90px;
+  top: -60px;
   color: rgb(49, 49, 49);
 }
 
 .units {
   font-size: 18px;
   position: relative;
-  left: 130px;
-  top: -45px;
+  left: 90px;
+  top: -60px;
   color: rgb(49, 49, 49);
 }
 
@@ -59,18 +59,18 @@ h1 {
 #description {
   font-size: 18px;
   position: relative;
-  left: 130px;
-  top: -55px;
+  left: 90px;
+  top: -65px;
   color: rgb(49, 49, 49);
 }
 #description:first-letter {
   text-transform: capitalize;
 }
 
-.sunny {
+#icon {
   position: relative;
-  top: -280px;
-  left: -10px;
+  top: -283px;
+  left: -30px;
   margin: auto 0;
 }
 
