@@ -75,16 +75,14 @@ h1 {
 
 #icon {
   position: relative;
-  top: -360px;
   left: -20px;
-  margin: auto 0;
+  top: -360px;
 }
 
 .quote {
   position: relative;
+  top: -350px;
   left: 150px;
-  top: -330px;
-  margin: auto 0;
 }
 
 .link {
@@ -96,6 +94,7 @@ h1 {
 .weather-forecast {
   text-align: center;
   margin-top: -30px;
+  margin-left: 60px;
 }
 
 .weather-forecast-date {
