@@ -5,7 +5,7 @@
 }
 .card {
   background-color: #ffd1ab;
-  height: 420px;
+  height: 490px;
 }
 .card-body {
   position: relative;
@@ -75,15 +75,15 @@ h1 {
 
 #icon {
   position: relative;
-  top: -300px;
-  left: -30px;
+  top: -335px;
+  left: -20px;
   margin: auto 0;
 }
 
 .quote {
   position: relative;
-  left: 160px;
-  top: -300px;
+  left: 150px;
+  top: -330px;
   margin: auto 0;
 }
 
@@ -91,4 +91,22 @@ h1 {
   position: relative;
   bottom: -50px;
   left: 50px;
+}
+
+.weather-forecast {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
+}
+.icon-one {
+  position: relative;
+  top: -2px;
+  left: -4px;
 }
